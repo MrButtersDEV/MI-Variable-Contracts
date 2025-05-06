@@ -1,134 +1,254 @@
 [
     {
         "category": "Insurance Regulation",
-        "question": "What must a producer do if they change their legal name or address in Michigan?",
+        "question": "What is required for a producer's appointment to be valid in Michigan?",
         "options": [
-            "A) Nothing, it's updated automatically",
-            "B) Notify the insurer only",
-            "C) Notify the Director within 30 days",
-            "D) Reapply for a new license"
+            "A) Approval from the client",
+            "B) Filing a license renewal",
+            "C) Insurer filing an appointment notice with the Director",
+            "D) Completion of continuing education"
         ],
         "answer": "C",
-        "explanation": "According to MCL 500.1206(5), a producer must notify the Director of any change in legal name or address within 30 days."
-    },
-    {
-        "category": "Insurance Regulation",
-        "question": "What action must a licensee take when disciplined by another jurisdiction?",
-        "options": [
-            "A) Notify the insurer only",
-            "B) Notify the Director within 30 days",
-            "C) Appeal the decision in Michigan court",
-            "D) Wait until renewal to report it"
-        ],
-        "answer": "B",
-        "explanation": "MCL 500.1239 requires licensees to report administrative actions taken against them in other jurisdictions within 30 days."
+        "explanation": "Per MCL 500.1208a, an insurer must file an appointment notice with the Director to validate the producer's appointment."
     },
     {
         "category": "General Insurance",
-        "question": "Which of the following is an example of risk transfer?",
+        "question": "Which of the following best describes risk transfer?",
         "options": [
-            "A) Saving money in a rainy-day fund",
-            "B) Increasing your insurance deductible",
-            "C) Buying an insurance policy",
-            "D) Accepting responsibility for minor losses"
+            "A) Saving for a potential loss",
+            "B) Accepting the risk of loss",
+            "C) Purchasing insurance to shift risk",
+            "D) Ignoring the risk"
         ],
         "answer": "C",
-        "explanation": "Buying insurance is a form of risk transfer\u2014shifting the financial burden of loss to an insurer."
-    },
-    {
-        "category": "General Insurance",
-        "question": "What makes a risk insurable?",
-        "options": [
-            "A) It must be catastrophic",
-            "B) It must be speculative",
-            "C) It must involve predictable losses",
-            "D) It must be illegal"
-        ],
-        "answer": "C",
-        "explanation": "Insurable risks are those that involve predictable losses, among other characteristics such as being accidental and measurable."
+        "explanation": "Risk transfer involves shifting the burden of loss to another party, such as an insurance company."
     },
     {
         "category": "Regulation of Variable Products",
-        "question": "Which federal law requires the registration of variable products?",
+        "question": "Which act requires the registration of variable life insurance products as securities?",
         "options": [
-            "A) Securities Act of 1933",
-            "B) Fair Credit Reporting Act",
-            "C) ERISA",
-            "D) HIPAA"
+            "A) Securities Exchange Act of 1934",
+            "B) Investment Company Act of 1940",
+            "C) Securities Act of 1933",
+            "D) Insurance Disclosure Act of 1995"
         ],
-        "answer": "A",
-        "explanation": "The Securities Act of 1933 requires the registration of securities products, including variable life and annuities."
-    },
-    {
-        "category": "Regulation of Variable Products",
-        "question": "Which act governs the behavior of broker-dealers and investment advisors?",
-        "options": [
-            "A) Investment Company Act of 1940",
-            "B) Securities Exchange Act of 1934",
-            "C) Dodd-Frank Act",
-            "D) Bank Holding Company Act"
-        ],
-        "answer": "B",
-        "explanation": "The Securities Exchange Act of 1934 governs secondary trading, broker-dealer behavior, and registration."
+        "answer": "C",
+        "explanation": "The Securities Act of 1933 governs the initial registration and sale of securities, including variable products."
     },
     {
         "category": "Nature of Variable Life Products",
-        "question": "How do variable life policies differ from variable universal life?",
+        "question": "What distinguishes variable life insurance from traditional whole life?",
         "options": [
-            "A) Variable life has flexible premiums",
-            "B) Variable universal life has fixed premiums",
-            "C) Variable universal life offers flexible premiums and death benefits",
-            "D) Variable life offers guaranteed returns"
-        ],
-        "answer": "C",
-        "explanation": "Variable universal life offers flexibility in both premium payments and death benefits, unlike traditional variable life."
-    },
-    {
-        "category": "Annuities",
-        "question": "What is the accumulation period of an annuity?",
-        "options": [
-            "A) When the annuitant starts receiving payments",
-            "B) The time after the policy lapses",
-            "C) The phase when the owner pays premiums",
-            "D) When the contract is terminated"
-        ],
-        "answer": "C",
-        "explanation": "The accumulation period is when the owner funds the annuity before payouts begin."
-    },
-    {
-        "category": "Annuities",
-        "question": "Which type of annuity starts payouts immediately after a single premium is paid?",
-        "options": [
-            "A) Deferred Annuity",
-            "B) Immediate Annuity",
-            "C) Indexed Annuity",
-            "D) Flexible Premium Annuity"
+            "A) Variable life uses a fixed death benefit",
+            "B) Variable life allows cash value to be invested in separate accounts",
+            "C) Whole life has flexible premiums",
+            "D) Variable life does not accumulate cash value"
         ],
         "answer": "B",
-        "explanation": "A Single Premium Immediate Annuity (SPIA) begins making payments right after a lump sum is paid."
+        "explanation": "Variable life insurance allows policyholders to invest in separate accounts, impacting cash value growth."
+    },
+    {
+        "category": "Annuities",
+        "question": "What happens during the accumulation period of an annuity?",
+        "options": [
+            "A) The annuitant receives income payments",
+            "B) The annuitant names a new beneficiary",
+            "C) The owner makes contributions to build value",
+            "D) No interest is earned"
+        ],
+        "answer": "C",
+        "explanation": "The accumulation period is when the annuity owner makes contributions and the value builds before payout begins."
     },
     {
         "category": "Federal Tax Considerations",
-        "question": "What is the tax treatment of death benefits from a life insurance policy?",
+        "question": "Which of the following life insurance benefits is generally income tax-free to the beneficiary?",
         "options": [
-            "A) Fully taxable as income",
-            "B) Partially taxable",
-            "C) Tax-free to the beneficiary",
-            "D) Only taxable if over $1 million"
+            "A) Policy loans",
+            "B) Surrender value",
+            "C) Death benefit",
+            "D) Cash dividends"
         ],
         "answer": "C",
-        "explanation": "Death benefits are generally received income tax-free by the beneficiary under federal law."
+        "explanation": "Death benefits from life insurance are typically income tax-free to beneficiaries under IRS rules."
+    },
+    {
+        "category": "Qualified Plans",
+        "question": "Which retirement plan is designed specifically for employees of nonprofit organizations?",
+        "options": [
+            "A) 401(k)",
+            "B) 403(b)",
+            "C) SIMPLE IRA",
+            "D) SEP IRA"
+        ],
+        "answer": "B",
+        "explanation": "403(b) plans are tax-sheltered retirement accounts specifically for public schools and nonprofit employees."
+    },
+    {
+        "category": "Insurance Regulation",
+        "question": "What is the penalty for failing to report a change of address to the Director in Michigan?",
+        "options": [
+            "A) $100 fine",
+            "B) License suspension",
+            "C) $250 fine and possible license suspension",
+            "D) No penalty"
+        ],
+        "answer": "C",
+        "explanation": "Producers must report address changes within 30 days, or face a $250 fine and possible license suspension."
+    },
+    {
+        "category": "General Insurance",
+        "question": "Which of the following is an example of adverse selection?",
+        "options": [
+            "A) Insurers offering discounts to low-risk individuals",
+            "B) High-risk individuals seeking insurance coverage",
+            "C) Sharing risk among multiple insurers",
+            "D) Avoiding risk through self-insurance"
+        ],
+        "answer": "B",
+        "explanation": "Adverse selection occurs when individuals with higher risk are more likely to seek insurance coverage."
+    },
+    {
+        "category": "Regulation of Variable Products",
+        "question": "What is the primary purpose of the Investment Company Act of 1940?",
+        "options": [
+            "A) Regulate the sale of securities",
+            "B) Ensure compliance with state insurance laws",
+            "C) Govern the structure and operation of investment companies",
+            "D) Provide tax benefits for variable products"
+        ],
+        "answer": "C",
+        "explanation": "The Investment Company Act of 1940 regulates the structure and operation of investment companies, including those offering variable products."
+    },
+    {
+        "category": "Nature of Variable Life Products",
+        "question": "What is a key feature of variable universal life insurance?",
+        "options": [
+            "A) Fixed premiums",
+            "B) Flexible premiums and investment options",
+            "C) Guaranteed cash value growth",
+            "D) No death benefit"
+        ],
+        "answer": "B",
+        "explanation": "Variable universal life insurance offers flexible premiums and the ability to invest in separate accounts."
+    },
+    {
+        "category": "Annuities",
+        "question": "What distinguishes immediate annuities from deferred annuities?",
+        "options": [
+            "A) Immediate annuities have no death benefits",
+            "B) Immediate annuities begin payments shortly after purchase",
+            "C) Deferred annuities require a single premium payment",
+            "D) Deferred annuities do not accumulate interest"
+        ],
+        "answer": "B",
+        "explanation": "Immediate annuities begin payments shortly after purchase, while deferred annuities accumulate value over time."
     },
     {
         "category": "Federal Tax Considerations",
-        "question": "What test determines if a life insurance policy is a Modified Endowment Contract (MEC)?",
+        "question": "What is the 7-pay test used to determine?",
         "options": [
-            "A) 5-pay test",
-            "B) Death benefit ratio test",
-            "C) 7-pay test",
-            "D) Cash value accumulation test"
+            "A) Taxability of death benefits",
+            "B) Whether a policy is a Modified Endowment Contract (MEC)",
+            "C) Eligibility for tax-free rollovers",
+            "D) Exclusion ratio for annuity payments"
+        ],
+        "answer": "B",
+        "explanation": "The 7-pay test determines if a life insurance policy is classified as a Modified Endowment Contract (MEC)."
+    },
+    {
+        "category": "Qualified Plans",
+        "question": "Which type of retirement plan is specifically designed for small businesses and self-employed individuals?",
+        "options": [
+            "A) 401(k)",
+            "B) SEP IRA",
+            "C) 403(b)",
+            "D) Defined Benefit Plan"
+        ],
+        "answer": "B",
+        "explanation": "SEP IRAs are designed for small businesses and self-employed individuals, offering a simple way to contribute to retirement."
+    },
+    {
+        "category": "Insurance Regulation",
+        "question": "What is the penalty for rebating in Michigan?",
+        "options": [
+            "A) $500 fine",
+            "B) License suspension",
+            "C) $1,000 fine and license suspension",
+            "D) No penalty"
         ],
         "answer": "C",
-        "explanation": "The 7-pay test determines whether a life insurance policy is classified as a Modified Endowment Contract (MEC)."
+        "explanation": "Rebating is prohibited in Michigan and can result in a $1,000 fine and license suspension."
+    },
+    {
+        "category": "General Insurance",
+        "question": "What is an example of risk retention?",
+        "options": [
+            "A) Purchasing insurance",
+            "B) Setting aside funds to cover potential losses",
+            "C) Sharing risk with other insurers",
+            "D) Avoiding the risk entirely"
+        ],
+        "answer": "B",
+        "explanation": "Risk retention involves accepting the financial responsibility for a loss and setting aside funds to cover it."
+    },
+    {
+        "category": "Regulation of Variable Products",
+        "question": "What is the purpose of the Securities Exchange Act of 1934?",
+        "options": [
+            "A) Regulate the initial sale of securities",
+            "B) Govern the secondary trading of securities",
+            "C) Provide tax benefits for securities",
+            "D) Regulate insurance products"
+        ],
+        "answer": "B",
+        "explanation": "The Securities Exchange Act of 1934 governs the secondary trading of securities to ensure transparency and fairness."
+    },
+    {
+        "category": "Nature of Variable Life Products",
+        "question": "What is a key difference between variable life and whole life insurance?",
+        "options": [
+            "A) Whole life has flexible premiums",
+            "B) Variable life allows investment in separate accounts",
+            "C) Whole life does not accumulate cash value",
+            "D) Variable life has a fixed death benefit"
+        ],
+        "answer": "B",
+        "explanation": "Variable life insurance allows policyholders to invest in separate accounts, which can impact cash value growth."
+    },
+    {
+        "category": "Annuities",
+        "question": "What is a characteristic of a Single Premium Immediate Annuity (SPIA)?",
+        "options": [
+            "A) Payments begin immediately after a single premium payment",
+            "B) Payments are deferred until a later date",
+            "C) Multiple premium payments are required",
+            "D) No death benefits are provided"
+        ],
+        "answer": "A",
+        "explanation": "A SPIA begins payments immediately after a single premium payment is made."
+    },
+    {
+        "category": "Federal Tax Considerations",
+        "question": "What is the tax treatment of a Modified Endowment Contract (MEC)?",
+        "options": [
+            "A) Tax-free distributions",
+            "B) Tax-deferred growth with penalties on early withdrawals",
+            "C) Fully taxable growth",
+            "D) No tax advantages"
+        ],
+        "answer": "B",
+        "explanation": "MECs have tax-deferred growth, but distributions are subject to penalties and taxation if taken before age 59½."
+    },
+    {
+        "category": "Qualified Plans",
+        "question": "What is a key feature of a SIMPLE IRA?",
+        "options": [
+            "A) Available only to large corporations",
+            "B) Employer contributions are optional",
+            "C) Designed for small businesses with fewer than 100 employees",
+            "D) Contributions are taxed upfront"
+        ],
+        "answer": "C",
+        "explanation": "SIMPLE IRAs are designed for small businesses with fewer than 100 employees, offering a straightforward retirement plan."
     }
 ]
