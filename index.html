@@ -26,7 +26,7 @@
     </script>
 </head>
 <body class="bg-gray-100 min-h-screen flex items-center justify-center font-inter">
-    <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-2xl">
+    <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-2xl py-8">
         <h1 class="text-2xl font-semibold mb-6 text-blue-600 text-center">Variable Annuities Practice Exam</h1>
         <form id="exam-form" class="space-y-4">
             <div id="questions-container">
@@ -134,5 +134,15 @@
 
         displayQuestions();
     </script>
+
+    <div class="fixed bottom-4 right-4 p-2 bg-indigo-800 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex" role="alert">
+        <span class="flex rounded-full bg-indigo-500 uppercase px-2 py-1 text-xs font-bold mr-3">AI Generated</span>
+        <span class="font-semibold mr-2 text-left flex-auto">This website and its questions were genrated based off <a href="https://proctor2.psionline.com/media/programs/MIINS/Variable%20Annuties%20Prod%2016-83x.pdf" 
+            target="_blank" 
+            class="text-blue-500 underline hover:text-blue-700">
+            this document
+        </a>.</span>
+
+    </div>
 </body>
 </html>
