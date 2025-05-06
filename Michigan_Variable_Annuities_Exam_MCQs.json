@@ -1,0 +1,134 @@
+[
+    {
+        "category": "Insurance Regulation",
+        "question": "What must a producer do if they change their legal name or address in Michigan?",
+        "options": [
+            "A) Nothing, it's updated automatically",
+            "B) Notify the insurer only",
+            "C) Notify the Director within 30 days",
+            "D) Reapply for a new license"
+        ],
+        "answer": "C",
+        "explanation": "According to MCL 500.1206(5), a producer must notify the Director of any change in legal name or address within 30 days."
+    },
+    {
+        "category": "Insurance Regulation",
+        "question": "What action must a licensee take when disciplined by another jurisdiction?",
+        "options": [
+            "A) Notify the insurer only",
+            "B) Notify the Director within 30 days",
+            "C) Appeal the decision in Michigan court",
+            "D) Wait until renewal to report it"
+        ],
+        "answer": "B",
+        "explanation": "MCL 500.1239 requires licensees to report administrative actions taken against them in other jurisdictions within 30 days."
+    },
+    {
+        "category": "General Insurance",
+        "question": "Which of the following is an example of risk transfer?",
+        "options": [
+            "A) Saving money in a rainy-day fund",
+            "B) Increasing your insurance deductible",
+            "C) Buying an insurance policy",
+            "D) Accepting responsibility for minor losses"
+        ],
+        "answer": "C",
+        "explanation": "Buying insurance is a form of risk transfer\u2014shifting the financial burden of loss to an insurer."
+    },
+    {
+        "category": "General Insurance",
+        "question": "What makes a risk insurable?",
+        "options": [
+            "A) It must be catastrophic",
+            "B) It must be speculative",
+            "C) It must involve predictable losses",
+            "D) It must be illegal"
+        ],
+        "answer": "C",
+        "explanation": "Insurable risks are those that involve predictable losses, among other characteristics such as being accidental and measurable."
+    },
+    {
+        "category": "Regulation of Variable Products",
+        "question": "Which federal law requires the registration of variable products?",
+        "options": [
+            "A) Securities Act of 1933",
+            "B) Fair Credit Reporting Act",
+            "C) ERISA",
+            "D) HIPAA"
+        ],
+        "answer": "A",
+        "explanation": "The Securities Act of 1933 requires the registration of securities products, including variable life and annuities."
+    },
+    {
+        "category": "Regulation of Variable Products",
+        "question": "Which act governs the behavior of broker-dealers and investment advisors?",
+        "options": [
+            "A) Investment Company Act of 1940",
+            "B) Securities Exchange Act of 1934",
+            "C) Dodd-Frank Act",
+            "D) Bank Holding Company Act"
+        ],
+        "answer": "B",
+        "explanation": "The Securities Exchange Act of 1934 governs secondary trading, broker-dealer behavior, and registration."
+    },
+    {
+        "category": "Nature of Variable Life Products",
+        "question": "How do variable life policies differ from variable universal life?",
+        "options": [
+            "A) Variable life has flexible premiums",
+            "B) Variable universal life has fixed premiums",
+            "C) Variable universal life offers flexible premiums and death benefits",
+            "D) Variable life offers guaranteed returns"
+        ],
+        "answer": "C",
+        "explanation": "Variable universal life offers flexibility in both premium payments and death benefits, unlike traditional variable life."
+    },
+    {
+        "category": "Annuities",
+        "question": "What is the accumulation period of an annuity?",
+        "options": [
+            "A) When the annuitant starts receiving payments",
+            "B) The time after the policy lapses",
+            "C) The phase when the owner pays premiums",
+            "D) When the contract is terminated"
+        ],
+        "answer": "C",
+        "explanation": "The accumulation period is when the owner funds the annuity before payouts begin."
+    },
+    {
+        "category": "Annuities",
+        "question": "Which type of annuity starts payouts immediately after a single premium is paid?",
+        "options": [
+            "A) Deferred Annuity",
+            "B) Immediate Annuity",
+            "C) Indexed Annuity",
+            "D) Flexible Premium Annuity"
+        ],
+        "answer": "B",
+        "explanation": "A Single Premium Immediate Annuity (SPIA) begins making payments right after a lump sum is paid."
+    },
+    {
+        "category": "Federal Tax Considerations",
+        "question": "What is the tax treatment of death benefits from a life insurance policy?",
+        "options": [
+            "A) Fully taxable as income",
+            "B) Partially taxable",
+            "C) Tax-free to the beneficiary",
+            "D) Only taxable if over $1 million"
+        ],
+        "answer": "C",
+        "explanation": "Death benefits are generally received income tax-free by the beneficiary under federal law."
+    },
+    {
+        "category": "Federal Tax Considerations",
+        "question": "What test determines if a life insurance policy is a Modified Endowment Contract (MEC)?",
+        "options": [
+            "A) 5-pay test",
+            "B) Death benefit ratio test",
+            "C) 7-pay test",
+            "D) Cash value accumulation test"
+        ],
+        "answer": "C",
+        "explanation": "The 7-pay test determines whether a life insurance policy is classified as a Modified Endowment Contract (MEC)."
+    }
+]
