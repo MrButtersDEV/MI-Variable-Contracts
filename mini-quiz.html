@@ -92,7 +92,7 @@
                 "Regulation of Variable Products": 2,
                 "Nature of Variable Life Products": 6,
                 "Annuities": 5,
-                "Federal Tax Considerations for Life Insurance and Annuities": 2,
+                "Federal Tax Considerations": 2,
                 "Qualified Plans": 2
             };
             const selectedQuestions = selectQuestionsByCategory(examData, categoryCounts);
@@ -117,7 +117,7 @@
 
             questionsContainer.innerHTML = questionHTML;
 
-            form.addEventListener('submit', function(event) {
+            form.onsubmit = function(event) {
                 event.preventDefault();
 
                 let score = 0;
@@ -143,9 +143,9 @@
 
                 form.querySelectorAll('input, button').forEach(el => el.disabled = true);
                 tryAgainButton.classList.remove('hidden');
-            });
+            };
 
-            tryAgainButton.addEventListener('click', function() {
+            tryAgainButton.onclick = function() {
                 form.querySelectorAll('input, button').forEach(el => el.disabled = false);
                 document.querySelectorAll('[id^="feedback-"]').forEach(el => {
                     el.textContent = '';
@@ -156,7 +156,7 @@
                 form.reset();
                 displayQuestions();
                 tryAgainButton.classList.add('hidden');
-            });
+            };
         }
 
         displayQuestions();
