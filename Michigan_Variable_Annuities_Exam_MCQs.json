@@ -2496,7 +2496,7 @@
         "explanation": "For a Section 1035 exchange to be valid, the policies involved must be of the same type: life insurance for life insurance or annuity for annuity. An exchange between different types (e.g., life insurance for annuity) is allowed, but there are specific conditions and requirements."
     },
     {
-        "category": "Annuities",
+        "category": "Qualified Plans",
         "question": "What is the primary requirement for a retirement plan to be considered a 'qualified plan' under IRS rules?",
         "options": [
             "A) The plan must be sponsored by a government entity",
@@ -2508,7 +2508,7 @@
         "explanation": "For a retirement plan to be considered a qualified plan under IRS rules, it must meet specific criteria, including being open to all employees who meet certain eligibility requirements, such as age and service length."
     },
     {
-        "category": "Annuities",
+        "category": "Qualified Plans",
         "question": "What is a key federal tax advantage of a qualified retirement plan?",
         "options": [
             "A) Contributions to a qualified plan are made with after-tax dollars and grow tax-free",
@@ -2520,7 +2520,7 @@
         "explanation": "The key federal tax advantage of qualified retirement plans is that contributions are made on a pre-tax basis, and taxes are deferred until the funds are distributed, typically in retirement."
     },
     {
-        "category": "Annuities",
+        "category": "Qualified Plans",
         "question": "Which of the following is a tax advantage for employers who provide qualified retirement plans?",
         "options": [
             "A) Employers can deduct contributions made to the plan as a business expense",
@@ -2532,7 +2532,7 @@
         "explanation": "Employers who contribute to a qualified retirement plan can deduct the contributions made to the plan as a business expense, which reduces their taxable income."
     },
     {
-        "category": "Annuities",
+        "category": "Qualified Plans",
         "question": "What is a tax advantage for employees who participate in a qualified retirement plan?",
         "options": [
             "A) Employees pay taxes on contributions when made, but withdrawals are tax-free",
@@ -2544,7 +2544,7 @@
         "explanation": "Employees can contribute money to a qualified retirement plan on a tax-deferred basis, which reduces their taxable income for the year the contributions are made. The funds grow tax-deferred until distributed."
     },
     {
-        "category": "Annuities",
+        "category": "Qualified Plans",
         "question": "How are distributions from a qualified retirement plan taxed if the employee is under the age of 59½?",
         "options": [
             "A) The distribution is tax-free, but subject to a penalty",
@@ -2556,7 +2556,7 @@
         "explanation": "Distributions from a qualified retirement plan before the age of 59½ are subject to ordinary income tax and a 10% early withdrawal penalty, unless an exception applies (such as for certain medical expenses or first-time home purchases)."
     },
     {
-        "category": "Annuities",
+        "category": "Qualified Plans",
         "question": "At what age must participants in a qualified retirement plan begin taking Required Minimum Distributions (RMDs)?",
         "options": [
             "A) 59½",
@@ -2568,7 +2568,7 @@
         "explanation": "Under current IRS rules, participants in a qualified retirement plan must begin taking Required Minimum Distributions (RMDs) by age 72, or face penalties if they fail to do so."
     },
     {
-        "category": "Annuities",
+        "category": "Qualified Plans",
         "question": "Which of the following is a key characteristic of Simplified Employee Pensions (SEPs)?",
         "options": [
             "A) Only large corporations can establish SEP plans for their employees",
@@ -2580,7 +2580,7 @@
         "explanation": "Simplified Employee Pensions (SEPs) are retirement plans where employers make tax-deferred contributions to their employees' SEP IRAs. Employees cannot contribute to SEPs directly."
     },
     {
-        "category": "Annuities",
+        "category": "Qualified Plans",
         "question": "Which of the following is true about SIMPLE IRA plans?",
         "options": [
             "A) Only employers can contribute to SIMPLE IRAs",
@@ -2592,7 +2592,7 @@
         "explanation": "SIMPLE IRA plans allow employees to contribute through salary deferrals, and employers are required to make either matching contributions or non-elective contributions to the employees’ accounts."
     },
     {
-        "category": "Annuities",
+        "category": "Qualified Plans",
         "question": "Which of the following best describes a 403(b) Tax-Sheltered Annuity (TSA)?",
         "options": [
             "A) A retirement plan for employees of public schools, certain non-profit organizations, and ministers",
@@ -2604,7 +2604,7 @@
         "explanation": "A 403(b) Tax-Sheltered Annuity (TSA) is a retirement plan for employees of public schools, certain tax-exempt organizations, and ministers. It is similar to a 401(k) but specifically for employees in the public and non-profit sectors."
     },
     {
-        "category": "Annuities",
+        "category": "Qualified Plans",
         "question": "Which of the following is a characteristic of loans available from retirement plans such as a 401(k) or 403(b)?",
         "options": [
             "A) Loans can be taken without any restrictions or penalties for any purpose",
@@ -2616,7 +2616,7 @@
         "explanation": "Loans from retirement plans like 401(k)s or 403(b)s are generally limited to $50,000 or 50% of the vested account balance, whichever is less. These loans are not taxable as long as they are repaid on time."
     },
     {
-        "category": "Annuities",
+        "category": "Qualified Plans",
         "question": "Which of the following is a limitation of the contributions made to a SIMPLE IRA plan?",
         "options": [
             "A) Employees can contribute up to $25,000 annually, but there are no employer contribution limits",
@@ -2628,7 +2628,7 @@
         "explanation": "In a SIMPLE IRA plan, employees can contribute up to $14,000 annually, with an additional catch-up contribution of $3,000 for those aged 50 or older. Employers must also contribute to the plan."
     },
     {
-        "category": "Annuities",
+        "category": "Qualified Plans",
         "question": "Which of the following retirement plan types is designed specifically for employees of government and tax-exempt organizations?",
         "options": [
             "A) 401(k)",

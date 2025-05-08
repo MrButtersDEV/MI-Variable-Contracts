@@ -40,12 +40,11 @@
         <button id="try-again" class="mt-4 bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 w-full hidden">
                 Try Again
         </button>
-    </div>
-
-    <div class="flex justify-center mt-6">
-        <a href="mini-quiz.html" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
-            Start Quiz
-        </a>
+        <div class="flex justify-center mt-6">
+            <a href="index.html" class="bg-gray-500 hover:bg-gray-600 text-white font-semibold py-2 px-4 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50">
+                Go to Home
+            </a>
+        </div>
     </div>
 
     <script>
@@ -68,17 +67,38 @@
             }
         }
 
-        function selectRandomQuestions(questions, count) {
-            const shuffled = questions.sort(() => 0.5 - Math.random());
-            return shuffled.slice(0, count);
+        function selectQuestionsByCategory(questions, categoryCounts) {
+            const categorizedQuestions = questions.reduce((acc, question) => {
+                acc[question.category] = acc[question.category] || [];
+                acc[question.category].push(question);
+                return acc;
+            }, {});
+
+            const selectedQuestions = [];
+            for (const [category, count] of Object.entries(categoryCounts)) {
+                if (categorizedQuestions[category]) {
+                    const shuffled = categorizedQuestions[category].sort(() => 0.5 - Math.random());
+                    selectedQuestions.push(...shuffled.slice(0, count));
+                }
+            }
+            return selectedQuestions;
         }
 
         async function displayQuestions() {
             const examData = await fetchQuestions();
-            const randomQuestions = selectRandomQuestions(examData, 10);
+            const categoryCounts = {
+                "Insurance Regulation": 1,
+                "General Insurance": 2,
+                "Regulation of Variable Products": 2,
+                "Nature of Variable Life Products": 6,
+                "Annuities": 5,
+                "Federal Tax Considerations": 2,
+                "Qualified Plans": 2
+            };
+            const selectedQuestions = selectQuestionsByCategory(examData, categoryCounts);
             let questionHTML = '';
 
-            randomQuestions.forEach((question, index) => {
+            selectedQuestions.forEach((question, index) => {
                 questionHTML += `
                     <div class="mb-4">
                         <p class="text-lg font-medium text-gray-700">${index + 1}. ${question.question}</p>
@@ -103,7 +123,7 @@
                 let score = 0;
                 const formData = new FormData(this);
 
-                randomQuestions.forEach((question, index) => {
+                selectedQuestions.forEach((question, index) => {
                     const userAnswer = formData.get(`q${index + 1}`);
                     const feedbackElementId = `feedback-q${index + 1}`;
                     const feedbackElement = document.getElementById(feedbackElementId);
@@ -118,7 +138,7 @@
                     }
                 });
 
-                resultsDiv.textContent = `You scored ${score} out of ${randomQuestions.length}.`;
+                resultsDiv.textContent = `You scored ${score} out of ${selectedQuestions.length}.`;
                 resultsDiv.className = "mt-6 text-lg font-semibold text-center";
 
                 form.querySelectorAll('input, button').forEach(el => el.disabled = true);
